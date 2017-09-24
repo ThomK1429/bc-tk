@@ -1,0 +1,4 @@
+margin:0; and padding:0; needed for content to been right up to the edge. 
+also note there is no  reset.css at this point or time, so the browser defaults are in effect. 
+
+

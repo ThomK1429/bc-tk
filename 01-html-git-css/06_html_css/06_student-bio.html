@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>06_html_css_layout</title>
+	  <link rel="stylesheet" type="text/css" href="reset.css">
+	<style>
+		html, body {
+			background-color: #efeee7;
+			font-family: "Georgia", "Times New Roman", Times, serif;
+			color: #333;
+			margin: 0 ;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+		}
+
+		#container {
+			margin: 0 auto;
+			width:1024px;
+		}
+
+		h1 {
+			color: #eee;
+			font-size: 28px;
+
+					text-align: center;
+					padding: 20px;
+		}
+
+		h2 {
+						font-size: 24px;
+
+		}
+
+		#main-bio, #contact-info, #bio-image {
+			float: left;
+		}
+
+		#main-bio {
+			xborder: 1px solid black;
+			width: 65%;
+		}
+
+		#bio-image {
+			width: 200px;
+			margin: 0px 20px 20px  0px;
+		}
+
+		#contact-info {
+			xfloat:right;
+			xborder: 1px solid black;
+			width: 34%;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1> Student Bio </h1>
+	</header>
+
+	<div id="container">
+
+		<section id="main-bio">
+			<h2> Your Name </h2>
+			<img id="bio-image" src="dummy-200x200.png" alt="bio-image">
+			<p> Write a short paragraph or two about yourself, or use
+			placeholder text from www.lipsum.com </p>
+		</section>
+
+		<section id="contact-info">
+			<h2> Contact Info </h2>
+			<ul> 
+				<li>Email: <a href="test@gmail.com" target="_blank">test@gmail.com</a> </li>
+				<li>Github: <a href="https://github.com/thomk1429" target="_blank">https://github.com/thomk1429</a></li>
+				<li>Portfolio: <a href="#" target="_blank">Coming Soon</a> </li>
+			</ul>
+		</section>
+
+	</div>
+
+</body>
+</html>

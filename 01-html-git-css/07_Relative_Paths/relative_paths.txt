@@ -1,0 +1,40 @@
+C:\Users\Owner\Desktop\tril0515v2\FullStack-Lesson-Plans\01-Class-Content\01-html-git-css\01-Activities\07-RelativePaths-Activity\Solved\RelativePaths_1\html-bio.html:
+    9    <!-- Fill in the href to the CSS such that this HTML file can access the CSS -->
+   10    <!-- Don't move the HTML or CSS file. Use Relative Linking -->
+   11:   <link rel="stylesheet" type="text/css" href="style.css">
+   12  </head>
+   13  
+
+C:\Users\Owner\Desktop\tril0515v2\FullStack-Lesson-Plans\01-Class-Content\01-html-git-css\01-Activities\07-RelativePaths-Activity\Solved\RelativePaths_2\html-bio.html:
+    9    <!-- Fill in the href to the CSS such that this HTML file can access the CSS -->
+   10    <!-- Don't move the HTML or CSS file. Use Relative Linking -->
+   11:   <link rel="stylesheet" type="text/css" href="assets/style.css">
+   12  </head>
+   13  
+
+C:\Users\Owner\Desktop\tril0515v2\FullStack-Lesson-Plans\01-Class-Content\01-html-git-css\01-Activities\07-RelativePaths-Activity\Solved\RelativePaths_3\html-bio.html:
+    9    <!-- Fill in the href to the CSS such that this HTML file can access the CSS -->
+   10    <!-- Don't move the HTML or CSS file. Use Relative Linking -->
+   11:   <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+   12  </head>
+   13  
+
+C:\Users\Owner\Desktop\tril0515v2\FullStack-Lesson-Plans\01-Class-Content\01-html-git-css\01-Activities\07-RelativePaths-Activity\Solved\RelativePaths_4\HTML\html-bio.html:
+    9    <!-- Fill in the href to the CSS such that this HTML file can access the CSS -->
+   10    <!-- Don't move the HTML or CSS file. Use Relative Linking -->
+   11:   <link rel="stylesheet" type="text/css" href="../style.css">
+   12  </head>
+   13  
+
+C:\Users\Owner\Desktop\tril0515v2\FullStack-Lesson-Plans\01-Class-Content\01-html-git-css\01-Activities\07-RelativePaths-Activity\Solved\RelativePaths_WorkingExample\html-bio-with-css.html:
+    1: <!-- CSS Stylesheets With Relative Paths -->
+    2  <!DOCTYPE html>
+    3  <html lang="en-us">
+    .
+    8  
+    9    <!-- This line is money! It points your HTML to the CSS file. -->
+   10:   <link rel="stylesheet" type="text/css" href="assets/style.css">
+   11    <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+   12  </head>
+
+6 matches across 5 files
